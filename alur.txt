@@ -1,0 +1,73 @@
+buka brave borwser mode penyamaran link https://star-survei3a.kemenimipas.go.id/ly/ASCG83Kb
+lalu pilih jenis kelamin (untuk isian nama)
+pastikan semua di klik
+
+Produk Layanan yang diterima /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[2]/div/div/div/div/dd/select/option[9] Layanan Kunjungan
+Nama Lengkap /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[4]/div/div/div/div/div[1]/div/input[2] (gunakan random dari list nama laki/perempuan yang dipilih dahulu)
+Nomor Handphone /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[5]/div/div/div/div/div[1]/div/input[2] (gunakan angka random berjumlah 11-12 digit berawalan 0851xx, 0812xx, 089xx, 0857xx, 0856xx, 0822xx, 0877xx)
+
+Pekerjaan (random salah satu) 
+PNS /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[6]/div/div/div/div/div[1]/div/label[1]
+SWASTA /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[6]/div/div/div/div/div[1]/div/label[4]
+WIRAUSAHA /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[6]/div/div/div/div/div[1]/div/label[5]
+
+Usia (random salah satu)
+18-20 tahun /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[7]/div/div/div/div/div[1]/div/label[1]
+21-30 tahun /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[7]/div/div/div/div/div[1]/div/label[2]
+31-40 tahun /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[7]/div/div/div/div/div[1]/div/label[3]
+41-50 tahun /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[7]/div/div/div/div/div[1]/div/label[4]
+51-60 tahun /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[7]/div/div/div/div/div[1]/div/label[5]
+
+Jenis kelamin (sesuai isian nama dari txt)
+jika laki" /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[8]/div/div/div/div/div[1]/div/label[1]
+jika perempuan /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[8]/div/div/div/div/div[1]/div/label[2]
+
+Pendidikan Terakhir (random)
+SD /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[9]/div/div/div/div/div[1]/div/label[1]
+SMP /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[9]/div/div/div/div/div[1]/div/label[2]
+SMA /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[9]/div/div/div/div/div[1]/div/label[3]
+Diploma /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[9]/div/div/div/div/div[1]/div/label[4]
+S1 /html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[9]/div/div/div/div/div[1]/div/label[5]
+
+Survei Persepsi Kualitas Pelayanan (SPKP)/ Survei Kepuasan Masyarakat (SKM)
+1. Informasi tentang jenis pelayanan tersedia melalui media elektronik maupun non elektronik
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[11]/div/div/div/div/div[1]/div/div/div/a[6] sangat memadai
+2. Persyaratan pelayanan yang harus Bapak/Ibu penuhi sesuai dengan persyaratan yang ditetapkan/diinfokan
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[12]/div/div/div/div/div[1]/div/div/div/a[6] sangat sesuai
+3. Alur/prosedur pelayanan ini mudah diikuti/dilakukan
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[13]/div/div/div/div/div[1]/div/div/div/a[6] sangat mudah
+4. Jangka waktu penyelesaian pelayanan yang Bapak/Ibu terima sesuai dengan ketentuan
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[14]/div/div/div/div/div[1]/div/div/div/a[6]
+5. Produk pelayanan yang tercantum dalam standar pelayanan (diinformasikan) sesuai dengan hasil yang Bapak/Ibu terima
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[15]/div/div/div/div/div[1]/div/div/div/a[6] sangat sesuai
+6. Ada tidaknya tarif/biaya pelayanan yang Bapak/Ibu bayarkan sesuai dengan ketentuan
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[16]/div/div/div/div/div[1]/div/div/div/a[6] sangat sesuai
+7. Ketersediaan dan kemudahan akses terhadap sarana prasarana pendukung pelayanan/sistem pelayanan online
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[17]/div/div/div/div/div[1]/div/div/div/a[6] sangat mudah
+8. Petugas pelayanan/sistem pelayanan online yang ada merespon keperluan Bapak/Ibu dengan cepat
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[18]/div/div/div/div/div[1]/div/div/div/a[6] sangat cepat
+9. Layanan konsultasi dan pengaduan yang ada mudah digunakan/diakses
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[19]/div/div/div/div/div[1]/div/div/div/a[6] sangat mudah
+10. Bagaimana pendapat Bapak/Ibu tentang pengetahuan, keahlian, keterampilan, dan pengalaman petugas dalam memberikan pelayanan?
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[20]/div/div/div/div/div[1]/div/div/div/a[6] sangat memadai
+11. Bagaimana pendapat Bapak/Ibu tentang sikap petugas saat memberikan pelayanan?
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[21]/div/div/div/div/div[1]/div/div/div/a[6] sangat memadai
+
+Survei Presepsi Anti Korupsi (SPAK)
+1. Tidak ada diskriminasi yang dilakukan pegawai
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[23]/div/div/div/div/div[1]/div/div/div/a[6] sangat setuju
+2. Tidak ada kecurangan/pelayanan di luar prosedur yang dilakukan pegawai
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[24]/div/div/div/div/div[1]/div/div/div/a[6] sangat setuju
+3. Tidak ada pegawai yang meminta imbalan uang/barang/fasilitas diluar ketentuan
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[25]/div/div/div/div/div[1]/div/div/div/a[6] sangat setuju
+4. Tidak ada pungutan liar (pungli) oleh pegawai
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[26]/div/div/div/div/div[1]/div/div/div/a[6] sangat setuju
+5. Tidak ada calo untuk layanan ini
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[27]/div/div/div/div/div[1]/div/div/div/a[6] sangat setuju
+
+EVALUASI DAN PERBAIKAN
+1. Sebelum menjawab survei ini, apakah ada pegawai/pejabat pada unit layanan ini yang mengarahkan Bapak/Ibu/Saudara untuk memberikan jawaban yang bagus-bagus/baik-baik saja?
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[29]/div/div/div/div/div[1]/div/label[1] tidak
+2. Perlu/tidak perlu perbaikan (sesuai pilihan berikut)
+/html/body/div[1]/div[1]/div/form/div[1]/div/div/div/div[30]/div/div/div/div/div[1]/div/label[9] Tidak ada yang perlu diperbaiki
+
