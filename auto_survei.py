@@ -110,6 +110,11 @@ LABEL_USIA = (
 
 LABEL_PENDIDIKAN = ("SD", "SMP", "SMA", "Diploma", "S1")
 
+# Aturan: jika pekerjaan PNS dipilih, usia 18-20 tahun dan pendidikan SD/SMP tidak boleh dipilih
+PEKERJAAN_RESTRIKSI_INDEXES = {0}  # 0 = PNS
+USIA_TERLARANG_JIKA_RESTRIKSI = {0}  # 0 = 18-20 tahun
+PENDIDIKAN_TERLARANG_JIKA_RESTRIKSI = {0, 1}  # 0 = SD, 1 = SMP
+
 LABEL_SKM_SPKP = (
     "Informasi jenis pelayanan tersedia (media elektronik & non elektronik) — bintang 6",
     "Persyaratan pelayanan dipenuhi sesuai ketentuan — bintang 6",
@@ -136,6 +141,14 @@ LABEL_EVALUASI_1 = (
     "Sebelum survei, ada pegawai yang mengarahkan jawaban 'bagus-bagus'? — Tidak"
 )
 LABEL_EVALUASI_2 = "Perbaikan layanan — Tidak ada yang perlu diperbaiki"
+
+# Log otomatis: selalu disimpan ke file ini, di folder yang sama dengan script
+# (bukan relatif ke current working directory), supaya konsisten di mana pun
+# script dijalankan.
+LOG_FILE_PATH = Path(__file__).resolve().parent / "log_survei.txt"
+LOG_HEADER = (
+    "Nama lengkap | Nomor handphone | Jenis kelamin | Pekerjaan | Usia | Pendidikan"
+)
 
 
 def get_brave_binary_path(custom_path: str | None) -> Path:
@@ -186,6 +199,30 @@ def pop_random_name_and_persist(names: list[str], source_path: str) -> str:
         content += "\n"
     Path(source_path).write_text(content, encoding="utf-8")
     return selected_name
+
+
+def append_log_line(
+    *,
+    nama: str,
+    hp: str,
+    gender_tampilan: str,
+    pekerjaan: str,
+    usia: str,
+    pendidikan: str,
+) -> Path:
+    p = LOG_FILE_PATH
+    p.parent.mkdir(parents=True, exist_ok=True)
+    # Header ditulis hanya saat file belum ada/masih kosong, biar run berikutnya
+    # langsung lanjut nambah baris tanpa duplikasi header.
+    need_header = (not p.exists()) or p.stat().st_size == 0
+    line = (
+        f"{nama} | {hp} | {gender_tampilan} | {pekerjaan} | {usia} | {pendidikan}\n"
+    )
+    with p.open("a", encoding="utf-8") as f:
+        if need_header:
+            f.write(LOG_HEADER + "\n")
+        f.write(line)
+    return p
 
 
 def random_phone() -> str:
@@ -470,7 +507,7 @@ def run_once(
     female_names: list[str],
     male_file_path: str,
     female_file_path: str,
-) -> tuple[str, str, str, str]:
+) -> dict[str, str]:
     driver.get(url)
     wait_page_fully_loaded(driver, wait)
 
@@ -486,8 +523,22 @@ def run_once(
     hp = random_phone()
 
     idx_pekerjaan = random.randrange(len(XPATH_PEKERJAAN))
-    idx_usia = random.randrange(len(XPATH_USIA))
-    idx_pendidikan = random.randrange(len(XPATH_PENDIDIKAN))
+
+    if idx_pekerjaan in PEKERJAAN_RESTRIKSI_INDEXES:
+        usia_kandidat = [
+            i for i in range(len(XPATH_USIA))
+            if i not in USIA_TERLARANG_JIKA_RESTRIKSI
+        ]
+        pendidikan_kandidat = [
+            i for i in range(len(XPATH_PENDIDIKAN))
+            if i not in PENDIDIKAN_TERLARANG_JIKA_RESTRIKSI
+        ]
+    else:
+        usia_kandidat = list(range(len(XPATH_USIA)))
+        pendidikan_kandidat = list(range(len(XPATH_PENDIDIKAN)))
+
+    idx_usia = random.choice(usia_kandidat)
+    idx_pendidikan = random.choice(pendidikan_kandidat)
 
     select_produk_layanan(driver, wait)
     fill_input_xpath(driver, wait, XPATH_NAMA, nama)
@@ -522,7 +573,16 @@ def run_once(
         max_captcha=max_captcha,
     )
 
-    return gender, nama, hp, captcha_value
+    return {
+        "gender": gender,
+        "nama": nama,
+        "hp": hp,
+        "gender_tampilan": gender_tampilan,
+        "pekerjaan": LABEL_PEKERJAAN[idx_pekerjaan],
+        "usia": LABEL_USIA[idx_usia],
+        "pendidikan": LABEL_PENDIDIKAN[idx_pendidikan],
+        "captcha_value": captcha_value,
+    }
 
 
 def main() -> None:
@@ -567,7 +627,7 @@ def main() -> None:
                 try:
                     driver = setup_driver(args.brave_path, args.headless)
                     wait = WebDriverWait(driver, 30)
-                    gender, nama, hp, captcha_value = run_once(
+                    hasil = run_once(
                         driver=driver,
                         wait=wait,
                         url=args.url,
@@ -576,9 +636,18 @@ def main() -> None:
                         male_file_path=args.male_file,
                         female_file_path=args.female_file,
                     )
+                    log_path = append_log_line(
+                        nama=hasil["nama"],
+                        hp=hasil["hp"],
+                        gender_tampilan=hasil["gender_tampilan"],
+                        pekerjaan=hasil["pekerjaan"],
+                        usia=hasil["usia"],
+                        pendidikan=hasil["pendidikan"],
+                    )
                     print(
                         f"[{i + 1}] iterasi selesai (attempt {attempt}) | "
-                        f"nama={nama} | hp={hp} | captcha={captcha_value}"
+                        f"nama={hasil['nama']} | hp={hasil['hp']} | "
+                        f"captcha={hasil['captcha_value']} | log→{log_path}"
                     )
                     success = True
                 finally:

@@ -1,0 +1,139 @@
+Nama lengkap | Nomor handphone | Jenis kelamin | Pekerjaan | Usia | Pendidikan
+Haris Saputra | 087854885099 | Laki-laki | PNS | 51-60 tahun | S1
+Rina | 08854989971 | Perempuan | SWASTA | 18-20 tahun | Diploma
+Ani Setiawati Sari | 08955701194 | Perempuan | WIRAUSAHA | 41-50 tahun | S1
+Heri Santoso | 08525414316 | Laki-laki | WIRAUSAHA | 31-40 tahun | SMP
+Elin Kartika | 08813955924 | Perempuan | PNS | 41-50 tahun | SMA
+Riska Amalia Putri | 085743461838 | Perempuan | PNS | 21-30 tahun | S1
+Rina Lestari Putri | 08778076760 | Perempuan | SWASTA | 41-50 tahun | SMP
+Hana Wulandari Sari | 08838868239 | Perempuan | PNS | 51-60 tahun | SMA
+Nugraha Saputra | 08218258296 | Laki-laki | PNS | 31-40 tahun | SMA
+Fani Lestari | 08236784034 | Perempuan | WIRAUSAHA | 21-30 tahun | S1
+Maman | 083112429111 | Laki-laki | WIRAUSAHA | 51-60 tahun | SD
+Cahyo Nugroho | 087735233413 | Laki-laki | PNS | 31-40 tahun | S1
+Surya Pratama Nugraha | 085101285456 | Laki-laki | WIRAUSAHA | 18-20 tahun | Diploma
+Taufik Hidayat | 08971285527 | Laki-laki | SWASTA | 41-50 tahun | SD
+Galih | 08850697155 | Laki-laki | SWASTA | 51-60 tahun | Diploma
+Rizki Pratama | 081998220842 | Laki-laki | SWASTA | 51-60 tahun | SMP
+Rara Safitri | 08132155298 | Perempuan | SWASTA | 51-60 tahun | SD
+Ita Lestari Putri | 08163283093 | Perempuan | WIRAUSAHA | 51-60 tahun | S1
+Ocha Putri Lestari | 081226174416 | Perempuan | WIRAUSAHA | 18-20 tahun | Diploma
+Fani | 08313753289 | Perempuan | WIRAUSAHA | 31-40 tahun | Diploma
+Elin Kartika Sari | 08146449510 | Perempuan | WIRAUSAHA | 41-50 tahun | S1
+Bayu Kurnia Saputra | 089564782508 | Laki-laki | SWASTA | 51-60 tahun | S1
+Fajar | 088569578330 | Laki-laki | WIRAUSAHA | 51-60 tahun | SMP
+Vina | 08121311463 | Perempuan | PNS | 41-50 tahun | SMA
+Fikri Maulana | 08977937757 | Laki-laki | PNS | 21-30 tahun | SMA
+Alya Putri Lestari | 088897718345 | Perempuan | PNS | 41-50 tahun | Diploma
+Rizka Lestari Sari | 08596814653 | Perempuan | WIRAUSAHA | 41-50 tahun | SD
+Randi Saputra | 081748514020 | Laki-laki | SWASTA | 31-40 tahun | S1
+Mira | 08589229421 | Perempuan | PNS | 21-30 tahun | SMA
+Sari Wulandari | 089946865070 | Perempuan | PNS | 51-60 tahun | S1
+Eka Wulandari Putri | 08525589390 | Perempuan | SWASTA | 21-30 tahun | SMA
+Indah Lestari | 08519960820 | Perempuan | PNS | 51-60 tahun | SMA
+Intan | 08849160980 | Perempuan | WIRAUSAHA | 51-60 tahun | SD
+Elin | 08863666622 | Perempuan | SWASTA | 18-20 tahun | SMP
+Hilda Rahmawati | 085692655752 | Perempuan | PNS | 21-30 tahun | SMA
+Irfan | 081832747933 | Laki-laki | WIRAUSAHA | 18-20 tahun | SMA
+Nisa | 088400054039 | Perempuan | PNS | 51-60 tahun | SMA
+Saputra | 08573098006 | Laki-laki | PNS | 41-50 tahun | Diploma
+Mahdi | 089656771639 | Laki-laki | WIRAUSAHA | 51-60 tahun | Diploma
+Winda | 08152801274 | Perempuan | PNS | 31-40 tahun | SMA
+Lukman Hakim | 08888621212 | Laki-laki | PNS | 41-50 tahun | SMA
+Fitri | 08858033855 | Perempuan | PNS | 21-30 tahun | S1
+Teguh Santoso Pratama | 088416191551 | Laki-laki | WIRAUSAHA | 18-20 tahun | SMA
+Oki Prasetyo | 087787197618 | Laki-laki | PNS | 41-50 tahun | S1
+Fira Andini Sari | 08386035045 | Perempuan | PNS | 21-30 tahun | Diploma
+Krisna Saputra Pratama | 08867005449 | Laki-laki | SWASTA | 51-60 tahun | SMP
+Eko Prasetyo | 085183951724 | Laki-laki | SWASTA | 41-50 tahun | SMA
+Fajar Saputra Pratama | 08880545930 | Laki-laki | WIRAUSAHA | 31-40 tahun | SD
+Rama Pratama Saputra | 08774053868 | Laki-laki | PNS | 21-30 tahun | S1
+Galih Nugraha Pratama | 08326077051 | Laki-laki | PNS | 41-50 tahun | S1
+Dian | 081679276907 | Perempuan | SWASTA | 41-50 tahun | SMA
+Ocha | 08531524263 | Perempuan | SWASTA | 51-60 tahun | SMP
+Joni | 08576959342 | Laki-laki | WIRAUSAHA | 31-40 tahun | S1
+Teguh | 08116830641 | Laki-laki | PNS | 41-50 tahun | S1
+Bunga | 08152432654 | Perempuan | SWASTA | 41-50 tahun | SMA
+Cindy | 08819677834 | Perempuan | PNS | 21-30 tahun | Diploma
+Dedi Santoso Wijaya | 089589639931 | Laki-laki | PNS | 21-30 tahun | Diploma
+Putra Saputra | 085779980290 | Laki-laki | SWASTA | 18-20 tahun | SMA
+Pras | 08233512765 | Laki-laki | WIRAUSAHA | 41-50 tahun | SMA
+Wati Lestari | 085129704301 | Perempuan | SWASTA | 51-60 tahun | SMP
+Putri Lestari | 087718475599 | Perempuan | WIRAUSAHA | 18-20 tahun | SD
+Awan Pratama Nugroho | 08132033984 | Laki-laki | PNS | 21-30 tahun | Diploma
+Vina Lestari Sari | 085613019666 | Perempuan | SWASTA | 41-50 tahun | SMA
+Nanda | 08176453082 | Laki-laki | SWASTA | 51-60 tahun | Diploma
+Umar Faruq Pratama | 081784472045 | Laki-laki | SWASTA | 18-20 tahun | SMP
+Sigit | 081454926210 | Laki-laki | WIRAUSAHA | 51-60 tahun | Diploma
+Fitriani Sari | 08237657297 | Perempuan | PNS | 31-40 tahun | S1
+Bayu | 085295802040 | Laki-laki | WIRAUSAHA | 51-60 tahun | SMA
+Ayu Lestari | 081758240332 | Perempuan | WIRAUSAHA | 18-20 tahun | SMP
+Cahyo Nugraha Saputra | 08198172319 | Laki-laki | WIRAUSAHA | 18-20 tahun | SD
+Maya | 08239481788 | Perempuan | SWASTA | 41-50 tahun | SMP
+Rafi | 08827001782 | Laki-laki | WIRAUSAHA | 21-30 tahun | Diploma
+Fani Lestari Putri | 085926454438 | Perempuan | WIRAUSAHA | 51-60 tahun | SMA
+Aisyah Salsabila | 08537370140 | Perempuan | WIRAUSAHA | 51-60 tahun | SD
+Siska Wulandari Putri | 08985984323 | Perempuan | PNS | 41-50 tahun | Diploma
+Indah | 081340645272 | Perempuan | WIRAUSAHA | 18-20 tahun | S1
+Farid Rahman Saputra | 089677858692 | Laki-laki | SWASTA | 18-20 tahun | Diploma
+Randi | 088348743699 | Laki-laki | PNS | 21-30 tahun | S1
+Rara | 08321431713 | Perempuan | WIRAUSAHA | 21-30 tahun | SD
+Roni | 083373067545 | Laki-laki | PNS | 41-50 tahun | Diploma
+Edi Santoso | 08326561854 | Laki-laki | WIRAUSAHA | 31-40 tahun | S1
+Citra Dewi Lestari | 088602716402 | Perempuan | PNS | 31-40 tahun | Diploma
+Zahra | 08591755726 | Perempuan | SWASTA | 21-30 tahun | Diploma
+Maman Santoso | 08550005063 | Laki-laki | PNS | 21-30 tahun | S1
+Vina Lestari | 081122904960 | Perempuan | WIRAUSAHA | 31-40 tahun | SMA
+Tina Lestari Sari | 08975390104 | Perempuan | WIRAUSAHA | 51-60 tahun | SMP
+Dewi | 085203776763 | Perempuan | PNS | 31-40 tahun | SMA
+Aisyah | 081236905488 | Perempuan | PNS | 41-50 tahun | Diploma
+Ocha Putri | 08986668266 | Perempuan | PNS | 31-40 tahun | S1
+Jaka Saputra Nugroho | 089930739458 | Laki-laki | WIRAUSAHA | 41-50 tahun | SMP
+Slamet Santoso | 088408940797 | Laki-laki | WIRAUSAHA | 41-50 tahun | SMP
+Farid | 08591558153 | Laki-laki | PNS | 51-60 tahun | SMA
+Rini Wulandari Sari | 08123000455 | Perempuan | SWASTA | 41-50 tahun | SMA
+Cindy Wulandari | 08969183903 | Perempuan | WIRAUSAHA | 31-40 tahun | SMA
+Saputra Nugroho | 081229109731 | Laki-laki | WIRAUSAHA | 31-40 tahun | SMP
+Fandi Nugroho Wijaya | 08239577533 | Laki-laki | SWASTA | 18-20 tahun | SD
+Rizal Saputra Nugraha | 08586994825 | Laki-laki | WIRAUSAHA | 51-60 tahun | S1
+Rizal Saputra | 081196091019 | Laki-laki | SWASTA | 21-30 tahun | Diploma
+Edi Saputra Santoso | 08336418375 | Laki-laki | WIRAUSAHA | 41-50 tahun | SD
+Bunga Lestari Sari | 081388303131 | Perempuan | WIRAUSAHA | 31-40 tahun | S1
+Rama Prasetyo | 08514374659 | Laki-laki | SWASTA | 18-20 tahun | SMP
+Fandi Saputra | 089587686452 | Laki-laki | SWASTA | 21-30 tahun | Diploma
+Yani Wulandari | 088421561048 | Perempuan | WIRAUSAHA | 41-50 tahun | S1
+Hadi Santoso Pratama | 08215906008 | Laki-laki | SWASTA | 41-50 tahun | SMP
+Danu Saputra Pratama | 085353690655 | Laki-laki | SWASTA | 51-60 tahun | SMP
+Bima Pratama Wijaya | 088516134969 | Laki-laki | PNS | 51-60 tahun | Diploma
+Bunga Lestari | 085232218633 | Perempuan | SWASTA | 31-40 tahun | SD
+Hana | 088515038339 | Perempuan | SWASTA | 21-30 tahun | SD
+Rani Wulandari Putri | 08180619684 | Perempuan | SWASTA | 51-60 tahun | SD
+Eko | 081454686881 | Laki-laki | WIRAUSAHA | 31-40 tahun | S1
+Kiki Amalia Putri | 088733871362 | Perempuan | PNS | 51-60 tahun | S1
+Fira Andini | 08217354443 | Perempuan | WIRAUSAHA | 21-30 tahun | SMP
+Aji Saputra | 088386636315 | Laki-laki | SWASTA | 31-40 tahun | SMP
+Ayu | 085150126893 | Perempuan | PNS | 31-40 tahun | Diploma
+Hana Wulandari | 08816338302 | Perempuan | PNS | 21-30 tahun | S1
+Wahyu Pratama Saputra | 088262375453 | Laki-laki | WIRAUSAHA | 51-60 tahun | SMP
+Ari Saputra Wijaya | 08786440620 | Laki-laki | PNS | 41-50 tahun | S1
+Oki | 081429057032 | Laki-laki | PNS | 31-40 tahun | SMA
+Lina Marlina Putri | 08771516919 | Perempuan | SWASTA | 41-50 tahun | Diploma
+Joni Saputra Pratama | 08519458924 | Laki-laki | WIRAUSAHA | 41-50 tahun | SMP
+Yudi Pratama Nugraha | 088421369375 | Laki-laki | SWASTA | 21-30 tahun | SD
+Wati | 08964181138 | Perempuan | WIRAUSAHA | 18-20 tahun | S1
+Slamet | 08828825350 | Laki-laki | SWASTA | 31-40 tahun | SD
+Sandi Pratama Nugraha | 085871606512 | Laki-laki | SWASTA | 18-20 tahun | SMP
+Rizal | 08849492510 | Laki-laki | PNS | 51-60 tahun | S1
+Agus Setiawan | 08161801132 | Laki-laki | PNS | 21-30 tahun | SMA
+Oki Saputra Pratama | 089707986945 | Laki-laki | WIRAUSAHA | 31-40 tahun | SD
+Dedi | 088840424167 | Laki-laki | SWASTA | 31-40 tahun | SD
+Lisa | 08234440970 | Perempuan | SWASTA | 41-50 tahun | SD
+Hilda | 08975017673 | Perempuan | SWASTA | 41-50 tahun | SMP
+Wawan | 08146991169 | Laki-laki | PNS | 21-30 tahun | S1
+Rafi Pratama | 08991320362 | Laki-laki | WIRAUSAHA | 41-50 tahun | Diploma
+Bella Safitri | 088405067048 | Perempuan | PNS | 41-50 tahun | S1
+Pras Nugroho Saputra | 08512627784 | Laki-laki | WIRAUSAHA | 21-30 tahun | Diploma
+Sigit Prasetyo | 08211624214 | Laki-laki | PNS | 31-40 tahun | Diploma
+Udin Saputra | 088923596671 | Laki-laki | PNS | 41-50 tahun | S1
+Teguh Santoso | 083800517638 | Laki-laki | SWASTA | 51-60 tahun | SMA
+Citra | 081115441123 | Perempuan | WIRAUSAHA | 51-60 tahun | Diploma

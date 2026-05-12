@@ -1,67 +1,25 @@
-Ayu
 Ani
-Aisyah
-Bunga
-Citra
-Cindy
-Dewi
-Dian
 Eka
-Elin
-Fani
 Fira
-Fitri
-Hana
 Hani
-Hilda
-Indah
-Intan
 Ita
-Jihan
-Kiki
-Lala
-Lisa
-Maya
-Mira
 Nia
-Nisa
 Novi
-Ocha
 Putri
 Rani
-Rara
-Rina
 Rini
 Rizka
-Sari
 Sri
 Tika
-Vina
-Wati
-Winda
 Yani
-Zahra
-Ayu Lestari
 Ani Setiawati
 Anis Kurniawati
-Aini Rahmawati
-Aisyah Salsabila
-Bella Safitri
-Bunga Lestari
 Citra Dewi
-Cindy Wulandari
 Dian Permata
 Dinda Ayu
 Eka Wulandari
-Elin Kartika
-Fani Lestari
-Fira Andini
-Fitriani Sari
 Gita Lestari
-Hana Wulandari
 Hani Setiawati
-Hilda Rahmawati
-Indah Lestari
 Intan Permata
 Ira Wulandari
 Maya Sari
@@ -70,63 +28,20 @@ Nia Wulandari
 Nina Lestari
 Nisa Rahmawati
 Novi Lestari
-Ocha Putri
-Putri Lestari
 Rani Wulandari
-Rara Safitri
 Rini Wulandari
-Riska Amalia
-Rizka Lestari
-Sari Wulandari
 Sinta Lestari
 Siska Wulandari
-Sri Lestari
 Tika Wulandari
-Tina Lestari
-Vina Lestari
-Wati Lestari
 Winda Lestari
-Yani Wulandari
 Zahra Aulia
-Ani Setiawati Sari
 Anis Kurniawati Dewi
-Alya Putri Lestari
-Bella Safitri Lestari
-Bunga Lestari Sari
-Citra Dewi Lestari
 Dewi Sartika Lestari
-Dian Permata Sari
-Dinda Ayu Lestari
-Eka Wulandari Putri
-Elin Kartika Sari
-Fani Lestari Putri
-Fira Andini Sari
-Hana Wulandari Sari
-Intan Permata Sari
-Ira Wulandari Lestari
-Ita Lestari Putri
 Jihan Safitri Sari
-Kiki Amalia Putri
-Lina Marlina Putri
 Maya Sari Lestari
-Mira Lestari Putri
-Nina Lestari Putri
-Novi Lestari Putri
-Ocha Putri Lestari
 Putri Lestari Sari
-Rani Wulandari Putri
 Rara Safitri Sari
-Rina Lestari Putri
-Rini Wulandari Sari
-Riska Amalia Putri
-Rizka Lestari Sari
 Sinta Lestari Sari
-Siska Wulandari Putri
-Sri Lestari Sari
-Tina Lestari Sari
-Umi Kalsum Putri
-Vina Lestari Sari
 Wati Lestari Putri
 Winda Lestari Sari
 Yani Wulandari Putri
-Yuni Lestari Sari
