@@ -3,6 +3,7 @@ import os
 import random
 import re
 import time
+import tempfile
 from pathlib import Path
 
 from selenium import webdriver
@@ -234,15 +235,32 @@ def random_phone() -> str:
 
 
 def setup_driver(brave_path: str | None, headless: bool) -> webdriver.Chrome:
-    brave_binary = get_brave_binary_path(brave_path)
     options = Options()
-    options.binary_location = str(brave_binary)
+    
+    if brave_path:
+        brave_binary = get_brave_binary_path(brave_path)
+        options.binary_location = str(brave_binary)
+    else:
+        # Coba gunakan Brave jika ada, kalau tidak biarkan Selenium memakai Chrome
+        try:
+            brave_binary = get_brave_binary_path(None)
+            # Jika ingin memaksa Chrome, kita bisa mengomentari baris di bawah ini
+            # options.binary_location = str(brave_binary)
+        except FileNotFoundError:
+            pass
+            
+    # Kita tidak set binary_location agar Selenium Manager 
+    # menggunakan Google Chrome default (yang sudah teruji jalan).
+    
     options.add_argument("--incognito")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--no-default-browser-check")
     options.add_argument("--disable-notifications")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    temp_dir = tempfile.mkdtemp()
+    options.add_argument(f"--user-data-dir={temp_dir}")
     if headless:
         options.add_argument("--headless=new")
     return webdriver.Chrome(options=options)
