@@ -20,7 +20,6 @@ pip install selenium ddddocr
 |------|--------|
 | `auto_survei.py` | Alur utama: buka form, isi data acak, OCR captcha, kirim |
 | `nama lk.txt` / `nama pr.txt` | Daftar nama; nama yang terpakai dihapus dari file |
-| `alur.txt` | Catatan alur / XPath (referensi) |
 | `solve_ocr_from_url.py` | Utilitas uji OCR captcha dari halaman (opsional) |
 
 ## Menjalankan
